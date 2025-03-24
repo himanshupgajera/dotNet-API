@@ -10,5 +10,7 @@ namespace customer.API.Data
         }
 
         public DbSet<Student> student { get; set; }
+
+        public DbSet<Teacher> teacher { get; set; }
     }
 }
